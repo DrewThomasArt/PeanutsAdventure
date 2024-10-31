@@ -12,7 +12,7 @@ public class MainObjectsLoader : MonoBehaviour
     public GameObject battleMan;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
            if (ScreenFade.instance == null)
         {

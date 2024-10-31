@@ -6,7 +6,7 @@ using UnityEngine.Tilemaps;
 
 public class CameraController : MonoBehaviour
 {
-        [HideInInspector]
+       // [HideInInspector]
         public Transform player;
         public Tilemap tilemap;
         private Vector3 boundary1;
