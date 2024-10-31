@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 346f8f444c6015d43a6549263b6a755f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 457
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25b5631a0b783b148be4067d6d2e3934
+      internalID: 1170743220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_1
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 457
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eebedc4d5a85d5b47be6b36a8f95ca85
+      internalID: -695303848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 457
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2618cc8744610ff488c538dfa36c394c
+      internalID: 2125071724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 457
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7b401e57a94c14d874a42302c99a41
+      internalID: -1631859065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 393
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec7d8e1afad33344b5503671a73c425
+      internalID: 556564233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 391
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad5be0c87856e4b46869a869bcda35ac
+      internalID: 805092576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_6
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 393
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcebb75d62fc9342a3dd97f26c06415
+      internalID: -990316632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 391
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83982bf802ae1204f874f50158c57b35
+      internalID: -1548461778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 325
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6880ad7d20f9049956b2be4c37b0b8
+      internalID: -1042287426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 324
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af293b59d1ebc94f8885640ba1f740d
+      internalID: -298543803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_10
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 324
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29cee5667ca09ba4aa4cbea2b658df56
+      internalID: 51962220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_11
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 325
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9face45a7eb7c48ba4c86c7673d007
+      internalID: -1986525360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 263
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6973f0c0de78d7843b0ec460e082ce34
+      internalID: 578566042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_13
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 263
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847beab114b9e4545a99691d06ee6f1d
+      internalID: 634050896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_14
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 263
+        width: 52
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f79fa6da75b483479c47d0482fd2d03
+      internalID: -920040209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_15
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 267
+        width: 52
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064c708da37207b4fa13d3349d84f146
+      internalID: 1627951552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 201
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f957b4ed0316743b2d51a9b76fb545
+      internalID: 890682545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_17
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 201
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf724f3cdba40f499c702ef06b96b1f
+      internalID: -916882236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_18
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 201
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40505e6fd0269d64494335aa81838438
+      internalID: -1822185819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_19
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 201
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622e0ee9b6a1874459f3f2ea2b530d86
+      internalID: 81302134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_20
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 137
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49b62f4456e81740b3eb2ed897e72b3
+      internalID: -1861832435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_21
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 137
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8104c34f02023f4986e87b0b3dff166
+      internalID: -240076438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 137
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc251e474ea9fa7479a2e69d024da828
+      internalID: 1988203910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites_Layouts_3_no_White_Background_23
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 137
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6af5e8fd86a3f849a02af63dfe3c112
+      internalID: 353786442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sprites_Layouts_3_no_White_Background_0: 1170743220
+      Sprites_Layouts_3_no_White_Background_1: -695303848
+      Sprites_Layouts_3_no_White_Background_10: 51962220
+      Sprites_Layouts_3_no_White_Background_11: -1986525360
+      Sprites_Layouts_3_no_White_Background_12: 578566042
+      Sprites_Layouts_3_no_White_Background_13: 634050896
+      Sprites_Layouts_3_no_White_Background_14: -920040209
+      Sprites_Layouts_3_no_White_Background_15: 1627951552
+      Sprites_Layouts_3_no_White_Background_16: 890682545
+      Sprites_Layouts_3_no_White_Background_17: -916882236
+      Sprites_Layouts_3_no_White_Background_18: -1822185819
+      Sprites_Layouts_3_no_White_Background_19: 81302134
+      Sprites_Layouts_3_no_White_Background_2: 2125071724
+      Sprites_Layouts_3_no_White_Background_20: -1861832435
+      Sprites_Layouts_3_no_White_Background_21: -240076438
+      Sprites_Layouts_3_no_White_Background_22: 1988203910
+      Sprites_Layouts_3_no_White_Background_23: 353786442
+      Sprites_Layouts_3_no_White_Background_3: -1631859065
+      Sprites_Layouts_3_no_White_Background_4: 556564233
+      Sprites_Layouts_3_no_White_Background_5: 805092576
+      Sprites_Layouts_3_no_White_Background_6: -990316632
+      Sprites_Layouts_3_no_White_Background_7: -1548461778
+      Sprites_Layouts_3_no_White_Background_8: -1042287426
+      Sprites_Layouts_3_no_White_Background_9: -298543803
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
