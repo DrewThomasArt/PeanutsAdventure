@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95dde198fff367a40bcf168656d93f62, type: 3}
+  m_Name: PeanutandBubbble
+  m_EditorClassIdentifier: 
+  portraits:
+  - {fileID: 1170743220, guid: 346f8f444c6015d43a6549263b6a755f, type: 3}
+  - {fileID: 880178727, guid: a9efb3600fb6aec4aa269bf759f29a4e, type: 3}
+  lines:
+  - //Bubbles
+  - '**1'
+  - Oh no, Peanut! The chickens got out!
+  - //Peanut
+  - '**0'
+  - Bark bark!
+  closingMessage: []
