@@ -84,7 +84,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 523335694430427610}
-  - component: {fileID: 2213680319194071077}
+  - component: {fileID: 2962106789932776869}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -113,7 +113,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 80, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2213680319194071077
+--- !u!114 &2962106789932776869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6fd0d111d364c249b04f2c0a4198e31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  qtyText: {fileID: 0}
+  itemImage: {fileID: 0}
 --- !u!1 &6802116188264283728
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,18 +7,14 @@ public class Player : Character
 {
     public HealthBar healthBarPrefab;
     HealthBar healthBar;
+    public Inventory inventory;
 
     void Awake()
     {
-       hitPoints.value = startingHitPoints;
-       healthBar = Instantiate(healthBarPrefab);
-       healthBar.character = this; 
-    }
-  
-
-    void Start()
-    {
-        
+        hitPoints.value = startingHitPoints;
+        healthBar = Instantiate(healthBarPrefab);
+        inventory = healthBar.GetComponent<Inventory>();
+        healthBar.character = this;
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -35,7 +31,7 @@ public class Player : Character
                 {
                     case Item.ItemType.COIN:
 
-                    shouldDisappear = Inventory.AddItem(hitObject);
+                    shouldDisappear = inventory.AddItem(hitObject);
                     break;
                     case Item.ItemType.HEALTH:
 
