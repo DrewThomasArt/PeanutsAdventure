@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53e24d723f641e74ebf6c9a1eec33a1d, type: 3}
   m_Name: Heart
   m_EditorClassIdentifier: 
-  objectName: 
-  sprite: {fileID: 0}
-  quantity: 0
+  objectName: heart
+  sprite: {fileID: 4606908045521496030, guid: 2b8558b645a07d74582677fd0bf9dfa9, type: 3}
+  quantity: 1
   stackable: 0
-  itemType: 0
+  itemType: 1
