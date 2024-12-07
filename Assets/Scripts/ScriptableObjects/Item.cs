@@ -9,7 +9,7 @@ public class Item : ScriptableObject
     public Sprite sprite;
     public int quantity;
     public bool stackable;
-    public enum ItemType {COIN, HEALTH}
+    public enum ItemType {COIN, CHICKEN, HEALTH}
     public ItemType itemType;
 
 }

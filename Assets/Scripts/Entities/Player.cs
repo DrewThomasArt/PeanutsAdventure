@@ -5,16 +5,15 @@ using UnityEngine;
 
 public class Player : Character
 {
+    public HitPoints hitPoints;
     public HealthBar healthBarPrefab;
     HealthBar healthBar;
     public Inventory inventory;
+    [SerializeField] private SimpleFlash flashEffect;
 
     void Awake()
     {
-        hitPoints.value = startingHitPoints;
-        healthBar = Instantiate(healthBarPrefab);
-        inventory = healthBar.GetComponent<Inventory>();
-        healthBar.character = this;
+        ResetCharacter();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -57,5 +56,41 @@ public class Player : Character
             return true;
         }
         return false;
+    }
+
+    public override IEnumerator DamageCharacter(int damage, float interval)
+    {
+        while (true)
+        {
+            flashEffect.Flash();
+            hitPoints.value = hitPoints.value - damage;
+            if (hitPoints.value <= float.Epsilon)
+            {
+                KillCharacter();
+                break;
+            }
+            if (interval > float.Epsilon)
+            {
+                yield return new WaitForSeconds(interval);
+            }
+            else
+            {
+                break;
+            }
+        }
+    }
+
+    public override void KillCharacter()
+    {
+        base.KillCharacter();
+        Destroy(healthBar.gameObject);
+    }
+
+    public override void ResetCharacter()
+    {
+        hitPoints.value = startingHitPoints;
+        healthBar = Instantiate(healthBarPrefab);
+        inventory = healthBar.GetComponent<Inventory>();
+        healthBar.character = this;
     }
 }

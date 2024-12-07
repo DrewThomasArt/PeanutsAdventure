@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7281479035227697358}
   - component: {fileID: 3400114912417789747}
   - component: {fileID: 3474164053421827740}
+  - component: {fileID: 8802399715441891737}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -200,7 +201,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 970ee92d17c738c4fadd62d46d4c5a0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: {fileID: 11400000, guid: b2a8e5461e852984eb3dc0a3176eb812, type: 2}
   maxHitPoints: 10
   startingHitPoints: 5
+  hitPoints: {fileID: 11400000, guid: b2a8e5461e852984eb3dc0a3176eb812, type: 2}
   healthBarPrefab: {fileID: 3664558875447757253, guid: 381e75aabbd666d4495b34147e4f58b5, type: 3}
+  inventory: {fileID: 0}
+  flashEffect: {fileID: 8802399715441891737}
+--- !u!114 &8802399715441891737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7838208740100291591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50cad1d5a725b1447b1be73a55519e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashMaterial: {fileID: 0}
+  duration: 0

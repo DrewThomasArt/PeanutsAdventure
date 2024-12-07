@@ -10,26 +10,29 @@ public class MainObjectsLoader : MonoBehaviour
     public GameObject gameMan;
     public GameObject audioMan;
     public GameObject battleMan;
+    public SpawnPoint playerSpawnPoint;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-           if (ScreenFade.instance == null)
-        {
-            ScreenFade.instance = Instantiate(UIScreen).GetComponent<ScreenFade>();
-        }
+        //    if (ScreenFade.instance == null)
+        // {
+        //     ScreenFade.instance = Instantiate(UIScreen).GetComponent<ScreenFade>();
+        // }
        
-            if (PlayerController.instance == null)
-            {
-            PlayerController clone = Instantiate(player).GetComponent<PlayerController>();
-            PlayerController.instance = clone;
-            playerStart = GameObject.Find("PlayerStart");
-            if (playerStart != null)
-                {
-                clone.transform.position = playerStart.transform.position;
-                }
-           
-            }
+            // if (PlayerController.instance == null)
+            // {
+            // PlayerController clone = Instantiate(player).GetComponent<PlayerController>();
+            // PlayerController.instance = clone;
+            // playerStart = GameObject.Find("PlayerStart");
+            // if (playerStart != null)
+            //     {
+            //     clone.transform.position = playerStart.transform.position;
+            //     }
+            // }
+
+        SetupScene();
+
         if (GameManager.instance == null)
         {
             GameManager.instance = Instantiate(gameMan).GetComponent<GameManager>();
@@ -44,5 +47,21 @@ public class MainObjectsLoader : MonoBehaviour
         // {
         //     BattleManager.instance = Instantiate(battleMan).GetComponent<BattleManager>();
         // }
+    }
+
+        public void SpawnPlayer()
+    {
+        if (playerSpawnPoint != null)
+        {
+            GameObject player = playerSpawnPoint.SpawnObject();
+        }
+    }
+
+    public void SetupScene()
+    {
+        if (PlayerController.instance == null)
+        {
+            SpawnPlayer();
+        }
     }
 }
