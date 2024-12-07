@@ -39875,7 +39875,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 153271920351410616, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
       propertyPath: m_SortingLayer
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 153271920351410616, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
       propertyPath: m_SortingLayerID
@@ -39883,11 +39883,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6266252383944665578, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -17.05
       objectReference: {fileID: 0}
     - target: {fileID: 6266252383944665578, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -8.12
       objectReference: {fileID: 0}
     - target: {fileID: 6266252383944665578, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39932,6 +39932,10 @@ PrefabInstance:
     - target: {fileID: 7838208740100291591, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7838208740100291591, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40646,6 +40650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 7095059061898620348, guid: 46ad949c9ac459746900ec08b9466ca5, type: 3}
+      propertyPath: tilemap
+      value: 
+      objectReference: {fileID: 669555180}
     - target: {fileID: 8976595936684184172, guid: 46ad949c9ac459746900ec08b9466ca5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
