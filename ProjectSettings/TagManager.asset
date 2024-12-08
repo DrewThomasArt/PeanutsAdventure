@@ -14,7 +14,7 @@ TagManager:
   - UI
   - Consumables
   - Enemies
-  - 
+  - Ammo
   - 
   - 
   - 
@@ -50,6 +50,9 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 2392151831
+    locked: 0
+  - name: Projectiles
+    uniqueID: 3975317191
     locked: 0
   - name: Player
     uniqueID: 3538061781

@@ -17,4 +17,11 @@ public abstract void ResetCharacter();
 
 public abstract IEnumerator DamageCharacter(int damage, float interval);
 
+public virtual IEnumerator FlickerCharacter()
+{
+    GetComponentInParent<SpriteRenderer>().color = Color.red;
+    yield return new WaitForSeconds(0.125f);
+    GetComponentInParent<SpriteRenderer>().color = Color.white;
+}
+
 }
