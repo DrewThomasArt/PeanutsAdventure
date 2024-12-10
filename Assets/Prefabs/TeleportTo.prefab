@@ -94,8 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76e03b73e4c2aaf428c0817d78594e21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: 
-  teleportName: 
+  scene: Cave
+  teleportName: Cave
   entry: {fileID: 0}
   transitionTime: 1
   teleportCollider: {fileID: 0}
