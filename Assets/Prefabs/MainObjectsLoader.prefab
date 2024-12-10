@@ -47,5 +47,6 @@ MonoBehaviour:
   UIScreen: {fileID: 2509556699422613452, guid: 381e75aabbd666d4495b34147e4f58b5, type: 3}
   player: {fileID: 7838208740100291591, guid: 825abc17ccd7ad9428e655e3df83f376, type: 3}
   gameMan: {fileID: 7937973419830185305, guid: 2743442e60bcbdc49be7a9f1ade66ef9, type: 3}
-  audioMan: {fileID: 0}
-  battleMan: {fileID: 0}
+  audioMan: {fileID: 4338698821762604250, guid: f700f3d7872d879469596ad15f5e51a0, type: 3}
+  battleMan: {fileID: 4350480759524860925, guid: 8fc22ec66e8666c40a79186a5e442ce7, type: 3}
+  playerSpawnPoint: {fileID: 0}
