@@ -19,8 +19,9 @@ public class PlayerController : MonoBehaviour
 
     //Make instance of this script to be able reference from other scripts!
     public static PlayerController instance;
+    internal string areaTransitionName;
 
-      void Awake()
+    void Awake()
     {
         rigidBody = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
